@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+      <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+    <style>
+      #gallery{
+        width: 950px;
+        height: 190px;
+        background: #ff0;
+        border:2px solid black;
+        border-radius: 15px;
+      }
+      ul{
+        list-style: none;
+      }
+      ul li{
+        display: inline;
+        float:left;
+        padding: 10px;
+      }
+      .bigpic{
+        position: absolute;
+        display: none;
+        left: 100px;
+        width: 400px;
+        height: 340px;
+      }
+      .smallpic{
+        border: 2px dotted red;
+        width: 200px;
+        height: 140px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>사용법</h1>
+    <div id="gallery">
+      <ul>
+        <li>
+             <img src="koko2.png" id="s1" class="smallpic">
+             <img src="koko3.png" id="big1" class="bigpic">
+        </li>
+        <li>
+             <img src="koko.png" id="s2" class="smallpic">
+             <img src="koko2.png" id="big2" class="bigpic">
+        </li>
+        <li>
+             <img src="kiki.png" id="s3" class="smallpic">
+             <img src="kiki2.png" id="big3" class="bigpic">
+        </li>
+      </ul>
+
+    </div>
+
+  </body>
+</html>
