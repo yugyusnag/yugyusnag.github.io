@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
     <script>
-      $(document).ready(function(){
-        $("#s1").click(function)(){
-          $("big1").fadenin(1000);
+      $(document).ready(function() {
+        $("#s1").click(function)() {
+          $("#big1").fadeIn(1000);
         });
         $("#big1").click(function)(){
-          $("big1").fadenin(1000);
-        });
+          $("#big1").fadeOut(1000);
+        })
       });
     </script>
   </head>
@@ -19,7 +19,7 @@
     <div id="gallery">
       <img src="koko.png" width="200" height="150"><br>
       <img src="koko.png" id="s1" width="200" height="150"><br>
-      <img src="koko.png" id="big1"width="200" class="Bicimg" height="150"><br>
+      <img src="koko.png" id="big1" width="400" class="Bigimg" height="300"><br>
     </div>
 
   </body>
